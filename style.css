@@ -49,9 +49,16 @@
 .sample {
   width: 540px;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: SF;
 }
+
 .examples {
   display: flex;
   flex-direction: column;
@@ -124,19 +131,23 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: 48px;
   font-weight: 400;
 }
-#paragraph-example-1{  
+
+#paragraph-example-1 {
   font-size: 20px;
   line-height: 28px;
 }
-#paragraph-example-2{  
+
+#paragraph-example-2 {
   font-size: 18px;
   line-height: 26px;
 }
-#paragraph-example-3{  
+
+#paragraph-example-3 {
   font-size: 16px;
   line-height: 24px;
 }
-#paragraph-example-4{  
+
+#paragraph-example-4 {
   font-size: 14px;
   line-height: 22px;
 }
