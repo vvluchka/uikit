@@ -2,6 +2,10 @@
   font-family: SF;
   src: url(fonts/SF-Pro-Text-Medium.otf);
 }
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
+
+
 
 :root {
   --blue: #0052ff;
@@ -400,21 +404,91 @@ h6 {
   line-height: 17px;
 }
 
-.shadow-bottom-border{
-  box-shadow: inset 0px -1px 0px #EAEAEA;
+.shadow-bottom-border {
+  box-shadow: inset 0px -1px 0px #eaeaea;
 }
-.shadow-bottom-level-1{
+.shadow-bottom-level-1 {
   box-shadow: 0px 2px 10px rgba(25, 1, 52, 0.12);
 }
-.shadow-bottom-level-2{
+.shadow-bottom-level-2 {
   box-shadow: 0px 4px 10px rgba(1, 21, 52, 0.16);
 }
-.shadow-top-border{
-  box-shadow: inset 0px 1px 0px #EAEAEA;
+.shadow-top-border {
+  box-shadow: inset 0px 1px 0px #eaeaea;
 }
-.shadow-top-level-1{
+.shadow-top-level-1 {
   box-shadow: 0px -2px 10px rgba(25, 1, 52, 0.12);
 }
-.shadow-top-level-2{
+.shadow-top-level-2 {
   box-shadow: 0px -4px 10px rgba(25, 1, 52, 0.16);
+}
+
+.buttons-container {
+  display: grid;
+  grid-template-columns: 131px 159px 159px;
+  grid-template-rows: 48px 48px;
+  gap: 80px;
+  margin: auto;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button-reset {
+  border: none;
+  border-radius: 4px;
+  transition: 0.7s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+}
+
+.button-primary {
+  background-color: var(--blue);
+  color: #ffffff;
+}
+.button-primary:hover {
+  background-color: #4d86ff;
+  cursor: pointer;
+  transition: 0.3s;
+  filter: drop-shadow(0px 4px 10px rgba(1, 21, 52, 0.16));
+}
+.button-primary:active {
+  background: #80a9ff;
+}
+.button-primary:focus {
+  background: rgba(0, 82, 255, 0.08);
+  color: #80a9ff;
+}
+
+.empty {
+  background-color: #ffffff;
+}
+.button-ghost {
+  background-color: #ffffff;
+  color: #0052ff;
+  border: 1px solid #0052ff;
+}
+.button-ghost:hover{
+  background-color: #E6EEFF;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 10px rgba(1, 21, 52, 0.16));
+  transition: 0.3s;
+}
+.button-ghost:active {
+  background: #ffffff;
+  border: 1px solid #0039B3;
+  color: #0039B3;
+}
+.button-ghost:focus {
+  border: 1px solid #B3CBFF;
+  color: #B3CBFF;
+}
+.button-ghost-arrow{
+  transition: 0.7s;
+}
+.button-ghost-arrow:hover{
+  border:none;
+  transition: 0.3s;
 }
