@@ -46,3 +46,7 @@
 .icon-user:before {
   content: "\e904";
 }
+
+.icon-user {
+  font-size: 20px;
+}
