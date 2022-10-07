@@ -5,11 +5,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
 
 :root {
-  --blue: #0052ff;
-  --orange: #fe9526;
-  --yellow: #ffcb2f;
-  --green: #53d86a;
-  --red: #ff3434;
+  --blue: rgba(0, 82, 255, 1);
+  --orange: rgba(254, 149, 38, 1);
+  --yellow: rgba(255, 203, 47, 1);
+  --green: rgba(83, 216, 106, 1);
+  --red: rgba(255, 52, 52, 1);
 }
 
 .main {
@@ -250,6 +250,24 @@ p{
 .blue-900 {
   background-color: #00194c;
 }
+.blue-opacity-8 {
+  background-color: rgba(0, 82, 255, 0.08);
+}
+.blue-opacity-16 {
+  background-color: rgba(0, 82, 255, 0.16);
+}
+.blue-opacity-24 {
+  background-color: rgba(0, 82, 255, 0.24);
+}
+.blue-opacity-32 {
+  background-color: rgba(0, 82, 255, 0.32);
+}
+.blue-opacity-40 {
+  background-color: rgba(0, 82, 255, 0.4);
+}
+.blue-opacity-48 {
+  background-color: rgba(0, 82, 255, 0.48);
+}
 .orange {
   background-color: var(--orange);
 }
@@ -279,6 +297,24 @@ p{
 }
 .orange-900 {
   background-color: #331e08;
+}
+.orange-opacity-8 {
+  background-color: rgba(254, 149, 38, 0.08);
+}
+.orange-opacity-16 {
+  background-color: rgba(254, 149, 38, 0.16);
+}
+.orange-opacity-24 {
+  background-color: rgba(254, 149, 38, 0.24);
+}
+.orange-opacity-32 {
+  background-color: rgba(254, 149, 38, 0.32);
+}
+.orange-opacity-40 {
+  background-color: rgba(254, 149, 38, 0.4);
+}
+.orange-opacity-48 {
+  background-color:   rgba(254, 149, 38, 0.48);
 }
 .yellow {
   background-color: var(--yellow);
@@ -310,6 +346,24 @@ p{
 .yellow-900 {
   background-color: #332909;
 }
+.yellow-opacity-8 {
+  background-color: rgba(255, 203, 47, 0.08);
+}
+.yellow-opacity-16 {
+  background-color: rgba(255, 203, 47, 0.16);
+}
+.yellow-opacity-24 {
+  background-color: rgba(255, 203, 47, 0.24);
+}
+.yellow-opacity-32 {
+  background-color: rgba(255, 203, 47, 0.32);
+}
+.yellow-opacity-40 {
+  background-color: rgba(255, 203, 47, 0.4);
+}
+.yellow-opacity-48 {
+  background-color:   rgba(255, 203, 47, 0.48);
+}
 .green {
   background-color: var(--green);
 }
@@ -339,6 +393,24 @@ p{
 }
 .green-900 {
   background-color: #112b15;
+}
+.green-opacity-8 {
+  background-color: rgba(83, 216, 106, 0.08);
+}
+.green-opacity-16 {
+  background-color: rgba(83, 216, 106, 0.16);
+}
+.green-opacity-24 {
+  background-color: rgba(83, 216, 106, 0.24);
+}
+.green-opacity-32 {
+  background-color: rgba(83, 216, 106, 0.32);
+}
+.green-opacity-40 {
+  background-color: rgba(83, 216, 106, 0.4);
+}
+.green-opacity-48 {
+  background-color: rgba(83, 216, 106, 0.48);
 }
 .red {
   background-color: var(--red);
@@ -370,25 +442,27 @@ p{
 .red-900 {
   background-color: #330a0a;
 }
+.red-opacity-8 {
+  background-color: rgba(255, 52, 52, 0.08);
+}
+.red-opacity-16 {
+  background-color: rgba(255, 52, 52, 0.16);
+}
+.red-opacity-24 {
+  background-color: rgba(255, 52, 52, 0.24);
+}
+.red-opacity-32 {
+  background-color: rgba(255, 52, 52, 0.32);
+}
+.red-opacity-40 {
+  background-color: rgba(255, 52, 52, 0.4);
+}
+.red-opacity-48 {
+  background-color: rgba(255, 52, 52, 0.48);
+}
 
-.opacity-8 {
-  opacity: 8%;
-}
-.opacity-16 {
-  opacity: 16%;
-}
-.opacity-24 {
-  opacity: 24%;
-}
-.opacity-32 {
-  opacity: 32%;
-}
-.opacity-40 {
-  opacity: 40%;
-}
-.opacity-48 {
-  opacity: 48%;
-}
+
+
 
 .shadows-container {
   display: grid;
