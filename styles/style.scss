@@ -4,13 +4,13 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
 
-:root {
-  --blue: rgba(0, 82, 255, 1);
-  --orange: rgba(254, 149, 38, 1);
-  --yellow: rgba(255, 203, 47, 1);
-  --green: rgba(83, 216, 106, 1);
-  --red: rgba(255, 52, 52, 1);
-}
+
+  $blue: rgba(0, 82, 255, 1);
+  $orange: rgba(254, 149, 38, 1);
+  $yellow: rgba(255, 203, 47, 1);
+  $green: rgba(83, 216, 106, 1);
+  $red: rgba(255, 52, 52, 1);
+
 
 .main {
   max-width: 1312px;
@@ -221,7 +221,7 @@ p{
 }
 
 .blue {
-  background-color: var(--blue);
+  background-color: $blue;
 }
 .blue-100 {
   background-color: #e6eeff;
@@ -269,7 +269,7 @@ p{
   background-color: rgba(0, 82, 255, 0.48);
 }
 .orange {
-  background-color: var(--orange);
+  background-color: $orange;
 }
 .orange-100 {
   background-color: #fff4e9;
